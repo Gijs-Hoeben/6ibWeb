@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title> Title </title>
+    
+    <style>
+    
+        body{
+            counter-reset: section;
+        }
+        tr::before{
+            counter-increment: section;
+            content: "Tabelrow " counter(section) ": ";
+        }
+        
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+    
+    
+    <link rel="stylesheet" href="css-toets-1-praktijk.css">
+    
+    
+	<body>
+
+        
+        <ul>
+              <li><a href="toets-1-praktijk.html">  Home <p class="fas fa-home"></p> </a> </li>
+              <li class="dropdown"> 
+              <a class= "dropdwn"> music </a>
+                <div class="dropdown-content">
+                    <a href="Pagina-2.html"> bands </a>
+                     <a href="pagina-3.html"> pictures </a>
+                </div>
+              </li>
+        </ul>
+        
+        <table>
+            <tr> 
+                <th> Band naam </th>
+                <th> Favorite song </th>
+                <th> Established since </th>
+            </tr>
+            <tr> 
+                <td> Act Of Rage </td>
+                <td> Till i die </td>
+                <td> 2014 </td>
+            </tr>
+            <tr>
+                <td> greazy puzzy fuckers</td>
+                <td> Flikker op </td>
+                <td> / </td>
+            </tr>
+            <tr>
+                <td> Redical Redemption </td>
+                <td> Brutal 7 </td>
+                <td> 2011 </td>
+            </tr>
+        </table>
+        
+        <video width="320" height="240" controls>
+            <source src="Tieum_x_GPF_-_Flikker_Op.mp4" type="video/mp4">
+        
+        </video>
+        
+        
+</body>
+</html>

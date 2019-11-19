@@ -1,0 +1,26 @@
+table{
+    border-style: solid;
+    width: 500px;
+    margin-left: 350px;
+    background-color: darkgray;
+}
+.title{
+    border-style: solid;
+    background-color: deepskyblue;
+}
+#naam{
+    font-family: cursive;
+    font-weight: bold;
+    background-color: chartreuse;
+}
+td{
+    border-style: solid;
+    background-color: chocolate;
+}
+.table{
+    margin-top: 100px;
+}
+.title2{
+    background-color: deepskyblue;
+    width: 15px;
+}
